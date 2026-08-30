@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix jikira-broadband-source install && npm --prefix jikira-broadband-source run build",
+    "typecheck": "npm --prefix jikira-broadband-source run typecheck"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
