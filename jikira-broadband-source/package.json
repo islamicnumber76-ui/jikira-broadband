@@ -1,12 +1,37 @@
 {
   "name": "jikira-broadband-app",
   "private": true,
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx"
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "axios": "^1.4.0",
+    "drizzle-orm": "^1.0.0",
+    "pg": "^8.11.0",
+    "@neondatabase/serverless": "^1.0.0",
+    "better-auth": "^1.0.0",
+    "classnames": "^2.3.2",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "vite": "^5.1.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@types/node": "^20.2.5",
+    "eslint": "^8.50.0",
+    "eslint-plugin-react": "^7.33.1",
+    "ts-node": "^10.9.1"
   }
 }
